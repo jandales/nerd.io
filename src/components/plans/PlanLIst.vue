@@ -46,8 +46,8 @@ const planList : Plan[] = [
             amount: 79,
         },
         descriptions: [
-            'Unlimited of storage',
-            'Unlimited of transfer'
+            'Unlimited storage',
+            'Unlimited transfer'
         ],
         mostPopular: false,
 

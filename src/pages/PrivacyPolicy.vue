@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Privacy from '@/components/Privacy.vue';
-import { QuestionList, PrivacyList } from '@/data/QuestionList';
+import { PrivacyList } from '@/data/QuestionList';
 import FairUse from '@/components/FairUse.vue'
 import { useTitle } from '@vueuse/core';
 
@@ -30,7 +30,7 @@ useTitle('Nerd.io | Privacy Policy')
         />
 
       <Privacy 
-        :title="`Saving cookie's`"
+        :title="`Saving cookies`"
         :description="[
           `Cookies saved temporarily are used to facilitate operation by the user. This does not contain any personal information. temporary cookies are deleted at the end of the session or when exiting the browser and/or closing the website. To facilitate logging in for registered users, permanent cookies are saved as well.`,
           `The user has the right to take actions to prevent or block the storage of cookies, either by browser functions or by separate software. However, Nerd.io expressly notes that the blocking of cookies may cause a restriction of use of the service of Nerd.io or other service providers.`

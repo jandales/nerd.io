@@ -1,13 +1,13 @@
 <script setup lang="ts">
 </script>
 <template>
-    <section class="min-h-screen container mx-auto px-8 lg:px-0">
-        <div class="flex  flex-col  lg:flex-row">
+    <section class="min-h-screen container mx-auto px-8 lg:px-0 py-16 lg:py-24">
+        <div class="flex flex-col lg:flex-row gap-10 lg:gap-16">
             <div class="max-w-md">
                 <h3 class="text-3xl lg:text-5xl font-bold">
                     Millions of people trust us
                 </h3>
-                <p class="mb-8 mt-8 text-lg text-slate-600">Join the millions of other MEGA individuals and businesses who trust us to store and protect their data in the cloud.</p>
+                <p class="mb-8 mt-8 text-lg text-slate-600">Join the millions of other Nerd.io individuals and businesses who trust us to store and protect their data in the cloud.</p>
                 <a href="#" class="py-3 bg-black text-white rounded-md font-semibold flex items-center justify-center gap-2 w-auto max-w-[12rem] group hover:bg-slate-800">
                     Sign up for free 
                    <span class="group-hover:translate-x-3  transition-all ease-in-out">

@@ -18,7 +18,7 @@ defineProps({
 
       <div :class="[mostPopular ? 'border-rose-500 border-2' : '', 'w-full min-h-[28rem] border rounded-2xl  p-8 flex flex-col']">
 
-        <PlanTitle :title="'Plan I'" :most-popular="mostPopular" />
+        <PlanTitle :title="title" :most-popular="mostPopular" />
   
         <PlanPrice :price="price" :currency="currency"/>
 

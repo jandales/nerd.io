@@ -7,7 +7,7 @@ import ShareImage from '../assets/share.png'
 <template >
     <section class="bg-white pt-16">
 
-        <h2 class="text-5xl text-center font-bold">Why choose NERD?</h2>
+        <h2 class="text-5xl text-center font-bold px-8 lg:px-0">Why choose NERD?</h2>
 
         <div class="mt-10">
             <Feature
@@ -23,14 +23,14 @@ import ShareImage from '../assets/share.png'
             <Feature
                     :image="StorageImage"
                     :title="'Never run out of storage space'"
-                    :descriptions="['Easily share your NERD files and folders with friends and colleagues, even people without NERD accounts. And when sharing, you’re still in control. You can give people read-only or full access to your folders, and can set a password or create expiring links.']"
+                    :descriptions="['Need lots of storage space? No problem. We have a range of competitive plans that go up to 16 TB. If you need even more space, get a Pro Flexi or Business plan, where you only pay for the extra storage space you use.']"
                     :isImageInRight="true"
             />
 
             <Feature
                 :image="ShareImage"
                 :title="'Share files and folders with anyone'"
-                :descriptions="[' Need lots of storage space? No problem. We have a range of competitive plans that go up to 16 TB. If you need even more space, get a Pro Flexi or Business plan, where you only pay for the extra storage space you use.']"
+                :descriptions="['Easily share your NERD files and folders with friends and colleagues, even people without NERD accounts. And when sharing, you’re still in control. You can give people read-only or full access to your folders, and can set a password or create expiring links.']"
                 :isImageInRight="false"
             />
 

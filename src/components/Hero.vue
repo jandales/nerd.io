@@ -11,18 +11,16 @@ const handleIsMobile = () => {
 const isMobile = ref(handleIsMobile());
 
 window.addEventListener('resize', () => {
-    handleIsMobile();
+    isMobile.value = handleIsMobile();
 })
-
-console.log(isMobile);
 </script>
 <template>
-    <section class="container mx-auto min-h-[calc(100vh_-_5rem)]  lg:min-h-screen grid place-content-center lg:-mt-20">
+    <section class="container mx-auto min-h-[calc(100vh_-_5rem)]  lg:min-h-screen grid place-content-center lg:pt-4">
         <div class="w-full grid place-content-center lg:place-content-start">
             <img v-if="isMobile" :src="HeroImageSm" alt="hero">
              <img v-else :src="HeroImage" alt="hero">
         </div>
-        <div class="mt-2">
+        <div class="mt-8">
             <h1 class="text-center text-2xl font-medium lg:text-3xl lg:font-black">Unlimited Cloud Storage</h1>
             <p class="text-center text-slate-800 text-lg mt-4 px-4 lg:px-0">Online storage, remote backups, simple up- and downloading</p>
             <div class="grid place-content-center mt-4">

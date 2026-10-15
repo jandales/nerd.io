@@ -2,28 +2,24 @@ import { Question, PrivacyPolicy  } from "@/contracts/Interface"
 
 export const QuestionList: Question[] = [
   { 
-    question: 'What isNerd.io?',
-     answer : 'Nerd.io.to is a file hosting provider. We offer online storage/remote backup capacity, sophisticated uploading and downloading tools. WithNerd.io you can host files, images, videos, audio and flash on the same place.'
+    question: 'What is Nerd.io?',
+     answer : 'Nerd.io is a file hosting provider. We offer online storage/remote backup capacity, sophisticated uploading and downloading tools. With Nerd.io you can host files, images, videos, audio and flash on the same place.'
   },
   {
-    question: 'Why should I useNerd.io?',
-    answer: `Whenever you need to send a file that is too large for e-mail,Nerd.io can help. If you need secure remote storage capacity for off-site backups,Nerd.io offers solutions for you. If you want to access personal data from a variety of computers and don't want to carry around a USB stick,Nerd.io is a perfect way of doing so.`
-  },
-   {
-    question: 'Why should I useNerd.io?',
-    answer: `Whenever you need to send a file that is too large for e-mail,Nerd.io can help. If you need secure remote storage capacity for off-site backups,Nerd.io offers solutions for you. If you want to access personal data from a variety of computers and don't want to carry around a USB stick,Nerd.io is a perfect way of doing so.`
+    question: 'Why should I use Nerd.io?',
+    answer: `Whenever you need to send a file that is too large for e-mail, Nerd.io can help. If you need secure remote storage capacity for off-site backups, Nerd.io offers solutions for you. If you want to access personal data from a variety of computers and don't want to carry around a USB stick, Nerd.io is a perfect way of doing so.`
   },
   {
     question: 'Can I search for files other people uploaded?',
-    answer : 'No, because not everyone wishes to share the files they upload with everyone else. This wayNerd.io can be used to share files with anyone you choose to, as well as keep it for yourself as a backup or to download from anywhere in the world.'
+    answer : 'No, because not everyone wishes to share the files they upload with everyone else. This way Nerd.io can be used to share files with anyone you choose to, as well as keep it for yourself as a backup or to download from anywhere in the world.'
   },
   {
     question: 'What kind of files can be uploaded?',
-    answer : 'All kinds: from your party photos to an important document. The only restrictions are for pornography, nudity, sexual images and any kind offensive material, and, of course, copyrighted material. Please refer to our TOS for more info onNerd.io terms of service.'
+    answer : 'All kinds: from your party photos to an important document. The only restrictions are for pornography, nudity, sexual images and any kind of offensive material, and, of course, copyrighted material. Please refer to our TOS for more info on Nerd.io terms of service.'
   },
   {
     question: 'How to delete a file I uploaded?',
-    answer: 'o delete a file you uploaded you must use Delete Link that was provided to you after the upload proccess. If you lost your removal code you can simply wait until the file expires so it will be automatically removed from our site.'
+    answer: 'To delete a file you uploaded you must use the Delete Link that was provided to you after the upload process. If you lost your removal code you can simply wait until the file expires so it will be automatically removed from our site.'
   },
   {
     question: 'Can I hotlink the stuff I upload?',
